@@ -39,7 +39,7 @@ export const TodosPage: React.FC = () => {
   }
 
   const removeHandler = (id: number) => {
-    const shoudRemove = confirm('Are you sure you want to delete the item?')
+    const shoudRemove = confirm('Вы уверены, что хотите удалить элемент?')
     if (shoudRemove) {
       setTodos(prev => prev.filter(todo => todo.id !== id))
     }
