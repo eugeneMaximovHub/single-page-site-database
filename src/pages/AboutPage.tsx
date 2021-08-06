@@ -9,7 +9,7 @@ export const AboutPage: React.FC = () => {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nostrum
         vero, repudiandae expedita beatae iure? Mollitia tempore quae qui
-        voluptatum.
+        voluptatum. Yes. I build it.
       </p>
       <button className="btn" onClick={() => history.push('/')}>
         Back to search
